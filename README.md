@@ -28,8 +28,11 @@ Some miscellaneous information:
 
 ## Hybrid Model Architecture
 
-<img src='Images/architecture.png" width=80% height=80%>
-
+<img src="Images/architecture.png" width=80% height=80%>
+ANN model for sequential sentence classification. x: token, t: token embeddings (300), zi: ith characterof x, 
+ci: character embeddings (25), c: character-based token embeddings (50), ei: hybrid token embeddings (350), s:sentence vector (200), 
+aj : sentence label vector (number ofclasses), yj : sentence label. 
+The numbers in parenthesis indicate the dimensions of the vectors. Token embeddings areinitialized with GloVe embeddings.
 
 ## Final Results
 ### **Model Comparison**

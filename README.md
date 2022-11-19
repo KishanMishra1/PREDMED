@@ -2,7 +2,7 @@
 An NLP model to classify abstract sentences into the role they play (e.g. objective, methods, results, etc) to enable researchers to skim through the literature and dive deeper when necessary.
 
 
-<img src="Images/output.png" width=80% height=80%>
+<img src="Images/output2.png" width=80% height=80%>
 
 ## Dataset Used
 [PubMed 200k RCT dataset](https://github.com/Franck-Dernoncourt/pubmed-rct)
@@ -28,3 +28,14 @@ All the note books are availabel [here]("https://github.com/vishalrk1/SkimLit/tr
 ## Final Results
 ### **Model Comparison**
 <img src="Images/model_comparison.png" width=80% height=80%>
+
+
+## Packages Used
+- Tensorflow
+- tensorflow_text
+- tensorflow_hub
+- sklearn
+- Matplotlib
+- numpy
+- pandas
+- spaCy

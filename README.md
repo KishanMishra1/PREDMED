@@ -25,6 +25,12 @@ Some miscellaneous information:
 - Model with token, character and position level embedding ( https://arxiv.org/pdf/1612.05251.pdf ) -> 82% Accuracy
 <!--         <img src="https://user-images.githubusercontent.com/59719046/138639849-8bb0dcb4-f307-45cf-82ec-671530680863.png" width=40% height=40%> -->
 
+
+## Hybrid Model Architecture
+
+<img src='Images/architecture.png" width=80% height=80%>
+
+
 ## Final Results
 ### **Model Comparison**
 <img src="Images/model_comparison.png" width=80% height=80%>

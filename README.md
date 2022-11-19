@@ -15,14 +15,14 @@ Some miscellaneous information:
 
 
 ## Models Tried
-All the note books are availabel [here]("https://github.com/vishalrk1/SkimLit/tree/main/Notebooks")
+
 
 - NaiveBayes Baseline Model -> 72% Accuracy
 - Conv1D Model with token embedding -> 78% Accuracy
 - Model using pretrained token embedding ( Universal sentence embedding ) -> 75% Accuracy
 - Conv1D Model using character level embedding -> 73% Accuracy 
 - Model with both token and charcter level embedding -> 76% Accuracy
-- Model with token, character and position level embedding ( https://arxiv.org/pdf/1612.05251.pdf ) -> 81% Accuracy
+- Model with token, character and position level embedding ( https://arxiv.org/pdf/1612.05251.pdf ) -> 82% Accuracy
 <!--         <img src="https://user-images.githubusercontent.com/59719046/138639849-8bb0dcb4-f307-45cf-82ec-671530680863.png" width=40% height=40%> -->
 
 ## Final Results

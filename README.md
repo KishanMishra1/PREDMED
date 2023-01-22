@@ -2,7 +2,7 @@
 An NLP model to classify abstract sentences into the role they play (e.g. objective, methods, results, etc) to enable researchers to skim through the literature and dive deeper when necessary.
 
 
-<img src="Images/output2.png" width=80% height=80%>
+![image](https://github.com/KishanMishra1/PREDMED/blob/main/Images/output2.png)
 
 ## Dataset Used
 [PubMed 200k RCT dataset](https://github.com/Franck-Dernoncourt/pubmed-rct)
@@ -28,7 +28,10 @@ Some miscellaneous information:
 
 ## Hybrid Model Architecture
 
-<img src="Images/architecture.png" width=80% height=80%>
+
+![alt text](https://github.com/KishanMishra1/PREDMED/blob/main/architecture.png?raw=true)
+
+
 ANN model for sequential sentence classification. x: token, t: token embeddings (300), zi: ith characterof x, 
 ci: character embeddings (25), c: character-based token embeddings (50), ei: hybrid token embeddings (350), s:sentence vector (200), 
 aj : sentence label vector (number ofclasses), yj : sentence label. 
